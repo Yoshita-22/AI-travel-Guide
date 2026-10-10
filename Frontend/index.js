@@ -40,7 +40,7 @@ const transcriptContent = document.getElementById('transcriptContent');
 const transcriptArrow = document.getElementById('transcriptArrow');
 
 // --- Functions ---
-const GENERATE_AUDIO_GUIDE_API_URL = "http://127.0.0.1:5000/generate-audio-guide";
+const GENERATE_AUDIO_GUIDE_API_URL = "/generate-audio-guide";
 
 function selectDestination(place, image, clickedCard = null) {
   state.place = place;

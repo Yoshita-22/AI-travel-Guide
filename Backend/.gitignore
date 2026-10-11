@@ -1,1 +1,9 @@
+.envpycache/
+*.py[cod]
+*.pyo
+instance/
 .env
+.env.*
+!.env.example
+**/.env
+*/.env.
